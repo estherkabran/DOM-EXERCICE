@@ -1,0 +1,86 @@
+.panier{
+	width: 90%;
+	min-height: 500px;
+	border: 1px solid grey;
+	margin: 15px;
+	display: flex;
+}
+
+.panier .panier-gauche {
+	width: 60%;
+	background: orange;
+	color: white;
+	padding: 10px;
+}
+
+.panier .panier-droite {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.panier .panier-droite p {
+	font-size: 25px;
+}
+
+.panier .panier-gauche .produit {
+	width: 90%;
+	background: white;
+	color: black;
+	height: 150px;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.panier .panier-gauche .produit .image {
+	width: 30%;
+}
+
+.panier .panier-gauche .produit .image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.panier .panier-gauche .produit .nom {
+	width: 40%;
+	display: flex;
+	padding-left: 10px;
+	align-items: center;
+}
+
+.panier .panier-gauche .produit .supprimer {
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.panier .panier-gauche .produit .supprimer button {
+	width: 120px;
+	height: 40px;
+	background: red;
+	border: 1px solid red;
+	color: white;
+	cursor: pointer;
+}
+
+.panier .panier-gauche .produit .nom .quantite-conteneur {
+	width: 80px;
+	display: flex;
+}
+
+.panier .panier-gauche .produit .nom .quantite-conteneur .quantite-input {
+	width: 20px;
+	text-align: center;
+	border: none;
+}
+
+.panier .panier-gauche .produit .nom .quantite-conteneur .quantite-button {
+	width: 30px;
+	background: orange;
+	color: white;
+	border: 1px solid orange;
+	cursor: pointer;
+}
